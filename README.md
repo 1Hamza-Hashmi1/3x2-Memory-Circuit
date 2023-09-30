@@ -1,6 +1,5 @@
 3x2 Memory Circuit was Created on 5/25/21
 
-
 Following is Schematic Diagram used to make 3x2 Memory Circuit:
 ![image](https://github.com/1Hamza-Hashmi1/3x2-Memory-Circuit/assets/146145658/2d894e65-2eb3-4558-b38f-dd59e1008fdc)
 
@@ -10,8 +9,7 @@ Following is Schematic Diagram used to make 3x2 Memory Circuit:
 
 -Has 3 memory locations
 
-
-Top Left (Momemory Compnent)
++Top Left (Momemory Compnent)
 
 -consists of 6 D-FlipFlops
 
@@ -25,11 +23,11 @@ Top Left (Momemory Compnent)
   
   -only changes according to clcok pulse
 
-Middle Left (Read/Write Circuit)
++Middle Left (Read/Write Circuit)
 
 -AND gates are connected to clock of D-FlipFlops
 
-Bottom Left (memory Location Select/Address Bus))
++Bottom Left (memory Location Select/Address Bus))
 
   -have 2 inputs
   
@@ -39,23 +37,19 @@ Bottom Left (memory Location Select/Address Bus))
   
   -slect memory location 01, 10 and 11 going left to right respectively
 
++Middle (Memory Out)
 
-Middle (Memory Out)
-
-Bottom of Middle (Switch)
++Bottom of Middle (Switch)
 
   -if open its 0, triggers AND gates in the read write circuit which allows a clock
 
-
-Right of Middle (Read/Write Circuit)
++Right of Middle (Read/Write Circuit)
 
 -allows to read whats in memonry
 
-
-Right Top (LED's)
++Right Top (LED's)
 
 -LED's turn on in respect to what data was stored 
-
 
 Explination of Circuit Configuration: https://youtu.be/qZTqvMSgNt8
 
