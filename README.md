@@ -13,11 +13,11 @@ Following is Schematic Diagram used to make 3x2 Memory Circuit:
 
 -consists of 6 D-FlipFlops
 
--D Flip Flop, what ever as input is whatever is at output
+-D Flip Flop, what ever is input is whatever is at output
 
-  -if 1, pusle clock, u get a 1 out
+  -if 1 input, pusle clock, you get a 1 output
   
-  -if 0, and dont pulse clock, out is still 1 (retains in memory)
+  -if 0 input, and dont pulse clock, out is still 1 output (retains in memory)
   
   -is a memory flip flop
   
@@ -35,13 +35,13 @@ Following is Schematic Diagram used to make 3x2 Memory Circuit:
   
   -can have 4 possible loactions for memory, but we using only 3
   
-  -slect memory location 01, 10 and 11 going left to right respectively
+  -select memory location 01, 10 and 11 going left to right respectively
 
 +Middle (Memory Out)
 
 +Bottom of Middle (Switch)
 
-  -if open its 0, triggers AND gates in the read write circuit which allows a clock
+  -if switch is open, its value is 0, triggers AND gates in the read write circuit which allows a clock
 
 +Right of Middle (Read/Write Circuit)
 
