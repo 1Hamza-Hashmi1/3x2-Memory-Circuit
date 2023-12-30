@@ -6,7 +6,6 @@
 >
 **Following is Schematic Diagram used to make 3x2 Memory Circuit:**
 ![image](https://github.com/1Hamza-Hashmi1/3x2-Memory-Circuit/assets/146145658/2d894e65-2eb3-4558-b38f-dd59e1008fdc)
-
 - Consists of 18 AND gates, 4 OR gates and 6 D-FlipFlops
 - Can input data into bit 0 and bit 1
 - Has 3 memory locations
@@ -32,9 +31,9 @@
 >
 *Bottom of Middle (Switch)*
 - if switch is open, its value is 0, triggers AND gates in the read write circuit which allows a clock
-
-+Right of Middle (Read/Write Circuit)
--allows to read whats in memonry
-
-+Right Top (LED's)
--LED's turn on in respect to what data was stored 
+>
+*Right of Middle (Read/Write Circuit)*
+- allows to read whats in memonry
+>
+*Right Top (LED's)*
+- LED's turn on in respect to what data was stored 
