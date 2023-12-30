@@ -10,30 +10,37 @@
 - Can input data into bit 0 and bit 1
 - Has 3 memory locations
 >
-*Top Left (Momemory Compnent)*
+<p>*Top Left (Momemory Compnent)*
 - consists of 6 D-FlipFlops
 - D Flip Flop, what ever is input is whatever is at output
   - if 1 input, pusle clock, you get a 1 output
   - if 0 input, and dont pulse clock, out is still 1 output (retains in memory)
   - is a memory flip flop
   - only changes according to clcok pulse
->
-*Middle Left (Read/Write Circuit)*
+</p>
+
+<p>*Middle Left (Read/Write Circuit)*
 - AND gates are connected to clock of D-FlipFlops
->
-*Bottom Left (memory Location Select/Address Bus))*
+</p>
+
+<p>*Bottom Left (memory Location Select/Address Bus))*
 - have 2 inputs
 - 4 possible combination
 - can have 4 possible loactions for memory, but we using only 3
 - select memory location 01, 10 and 11 going left to right respectively
->
-*Middle (Memory Out)*
->
-*Bottom of Middle (Switch)*
+</p>
+
+<p>*Middle (Memory Out)*
+</p>
+
+<p>*Bottom of Middle (Switch)*
 - if switch is open, its value is 0, triggers AND gates in the read write circuit which allows a clock
->
-*Right of Middle (Read/Write Circuit)*
+</p>
+
+<p>*Right of Middle (Read/Write Circuit)*
 - allows to read whats in memonry
->
-*Right Top (LED's)*
+</p>
+
+<p>*Right Top (LED's)*
+</p>
 - LED's turn on in respect to what data was stored 
